@@ -1,8 +1,23 @@
 aid: nava-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nava-therapeutics.png
 name: Nava Therapeutics
-description: 'Nava Therapeutics is a company surfaced as a portfolio company of gv and added to the API
-  Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Nava Therapeutics is a life-sciences company developing lipid nanoparticle (LNP)
+  technology for delivering RNA therapeutics precisely to specific organs and cells, aiming to
+  extend genetic medicines to previously untreatable diseases. Surfaced as a portfolio company of
+  GV (Google Ventures) and added to the API Evangelist network, Nava operates in the therapeutics /
+  RNA-delivery sector and, as a private clinical-stage biotech, publishes a corporate marketing site
+  (pipeline, team, newsroom) but no public developer, API, or integration surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/nava-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Therapeutics
+- RNA Delivery
+- Lipid Nanoparticles
+- Genetic Medicine
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +43,17 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nava-therapeutics-domain-security.yml
 - type: Website
   url: https://navatx.com
+- type: Blog
+  name: Newsroom
+  url: https://navatx.com/newsroom/
+- type: PrivacyPolicy
+  url: https://navatx.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
